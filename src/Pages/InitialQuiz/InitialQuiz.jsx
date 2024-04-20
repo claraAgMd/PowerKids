@@ -4,9 +4,14 @@ import Header from '../../components/Header/Header'
 
 function InitialQuiz (){
     return(
-        <section>
-            <Header/>
-        </section>
+        <div> 
+            <div>
+                <Header/>
+            </div>
+            <section>
+                <h2>Para começar, me conte qual sua relação com o autismo? </h2>
+            </section>
+        </div>
     )
 }
 
