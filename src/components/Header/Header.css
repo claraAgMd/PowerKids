@@ -1,0 +1,122 @@
+header {
+    width: 100%;
+    box-shadow: 0px 1px 10px 0px rgba(117, 113, 113, 0.4196078431);
+    background-color: #F7F8F7;
+  }
+  header .icons-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px 5px 30px;
+    border-bottom: 1px solid #D3A48F;
+  }
+  @media screen and (max-width: 419px) {
+    header .icons-navbar {
+      padding: 10px 10px;
+    }
+  }
+  header .icons-navbar .icon-contato {
+    width: 30px;
+  }
+  @media screen and (max-width: 419px) {
+    header .icons-navbar .icon-contato {
+      width: 25px;
+    }
+  }
+  header .icons-navbar .tel-header {
+    display: flex;
+    gap: 10px;
+  }
+  header .icons-navbar .tel-header p {
+    margin: auto;
+    font: normal normal 16px "Montserrat", sans-serif;
+    color: #D3A48F;
+  }
+  @media screen and (max-width: 419px) {
+    header .icons-navbar .tel-header p {
+      font-size: 14px;
+    }
+  }
+  header .icons-navbar .icons-header {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+  }
+  header .navbar {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 40px;
+    flex-direction: row;
+    align-items: center;
+  }
+  @media screen and (max-width: 990px) {
+    header .navbar {
+      padding-top: 10px;
+      height: 10rem;
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 399px) {
+    header .navbar {
+      margin: 0px 10px 0px 10px;
+    }
+  }
+  header .navbar .nav-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  @media screen and (max-width: 990px) {
+    header .navbar .nav-itens {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  header .navbar .nav-itens .list-nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  @media screen and (max-width: 1080px) {
+    header .navbar .nav-itens .list-nav {
+      gap: 16px;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    header .navbar .nav-itens .list-nav {
+      gap: 90px;
+    }
+  }
+  @media screen and (max-width: 690px) {
+    header .navbar .nav-itens .list-nav {
+      gap: 16px;
+    }
+  }
+  header .navbar .nav-itens .list-nav li {
+    font: normal normal 16px "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+  @media screen and (max-width: 480px) {
+    header .navbar .nav-itens .list-nav li {
+      font-size: 13px;
+    }
+  }
+  header .navbar .nav-itens .list-nav li a {
+    color: #757171;
+  }
+  header .navbar .btn-header {
+    color: #8DA39D;
+    padding: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 3px solid #8DA39D;
+    font: normal 600 14px "Montserrat", sans-serif;
+  }
+  @media screen and (max-width: 990px) {
+    header .navbar .btn-header {
+      margin-bottom: 10px;
+    }
+  }
+  
