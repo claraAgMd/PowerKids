@@ -1,0 +1,46 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+.initial-quiz {
+    display: flex;
+    margin-top: 40px;
+}
+
+.img-initial-quiz {
+   margin-right: 230px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.initial-input1{
+    border: 2px solid #DDA6A6;
+    margin-top: 25px;
+    border-radius: 50px;
+    width: 85%;
+    padding-left: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.initial-input1 span {
+    font-family: 'Montserrat';
+}
+
+.input-initial{
+    color: white;
+    padding: 4px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 40px;
+    font: normal 600 14px "Montserrat", sans-serif;
+    width: 150px;
+    height: 36px;
+    margin-left: 11rem;
+    margin-top: 1.2rem;
+    background-color: #0D6EFD;
+}

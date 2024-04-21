@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import InitialQuiz from './Pages/InitialQuiz/InitialQuiz'
+import LearningPaths from './Pages/LearningPaths/LearningPaths'
 import Login from './Pages/Login/Login'
 import Register from './Pages/Register/Register'
 import MChat from './Pages/MChat/MChat'
@@ -14,6 +15,7 @@ function RouterApp(){
         <Router>
             <Routes>
             <Route path="/" element={<Home/>}>Home</Route>
+            <Route path='/trilhas' element={<LearningPaths/>}>Trilhas de aprendizado</Route>
             <Route path="/quiz" element={<InitialQuiz/>}>Quiz</Route>
             <Route path="/login" element={<Login/>}>Login</Route>
             <Route path="/cadastro" element={<Register/>}>Cadastro</Route>
