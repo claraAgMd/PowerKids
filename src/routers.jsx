@@ -6,12 +6,14 @@ import MChat from './Pages/MChat/MChat'
 import Feedback from './Pages/Feedback/Feedback'
 import Chat2 from './Pages/Chat2/Chat2'
 import Chat3 from './Pages/Chat3/Chat3'
+import Home from './Pages/Home/Home'
 
 
 function RouterApp(){
     return(
         <Router>
             <Routes>
+            <Route path="/" element={<Home/>}>Home</Route>
             <Route path="/quiz" element={<InitialQuiz/>}>Quiz</Route>
             <Route path="/login" element={<Login/>}>Login</Route>
             <Route path="/cadastro" element={<Register/>}>Cadastro</Route>
