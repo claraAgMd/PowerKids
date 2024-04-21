@@ -9,7 +9,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 30px 5px 30px;
-    border-bottom: 1px solid #D3A48F;
+    border-bottom: 1px solid #00509D;
+  }
+  .img-logo{
+    width: 158px;
   }
   @media screen and (max-width: 419px) {
     header .icons-navbar {
@@ -31,7 +34,7 @@ header {
   header .icons-navbar .tel-header p {
     margin: auto;
     font: normal normal 16px "Montserrat", sans-serif;
-    color: #D3A48F;
+   
   }
   @media screen and (max-width: 419px) {
     header .icons-navbar .tel-header p {
@@ -104,15 +107,18 @@ header {
     }
   }
   header .navbar .nav-itens .list-nav li a {
-    color: #757171;
+    color: #00509D;
   }
   header .navbar .btn-header {
-    color: #8DA39D;
+    color: white;
     padding: 4px;
     text-transform: uppercase;
     background-color: transparent;
-    border: 3px solid #8DA39D;
+    border-radius: 40px;
     font: normal 600 14px "Montserrat", sans-serif;
+    width: 250px;
+    background-color: #00509D;
+    height: 40px;
   }
   @media screen and (max-width: 990px) {
     header .navbar .btn-header {

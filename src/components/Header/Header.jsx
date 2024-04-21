@@ -7,7 +7,7 @@ function Header() {
             <div className="icons-navbar">
                 <div className="tel-header">
                     <img className="icon-contato" src="img/tel-icon.svg" alt="" />
-                    <p>(11)0000-0000</p>
+                    
                 </div>
                 <div className="icons-header">
                     <img className="icon-contato" src="img/linkedin.svg" alt="" />
@@ -18,7 +18,7 @@ function Header() {
             </div>
 
             <div className="navbar">
-                <img src="../../../public/logo.png" alt="Logo" />
+                <img className='img-logo' src="../../../public/logo.png" alt="Logo" />
 
                 <div className="nav-itens">
                     <ul className="list-nav">
@@ -27,7 +27,7 @@ function Header() {
                         <li><a href="#">Localização</a></li>
                         <li><a href="#">Contato</a></li>
                     </ul>
-                    <button className="btn-header">Agende uma consulta</button>
+                    <button className="btn-header">Faça seu cadastro</button>
                 </div>
             </div>
         </header>
