@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import React from 'react'
 import InitialQuiz from './Pages/InitialQuiz/InitialQuiz'
 import LearningPaths from './Pages/LearningPaths/LearningPaths'
 

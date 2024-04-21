@@ -21,5 +21,6 @@
     width: 90px;
     height: 30px;
     margin-left: 40px;
-    
+    border: none;
+    cursor: pointer;
 }
