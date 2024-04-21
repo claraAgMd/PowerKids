@@ -11,27 +11,27 @@ function InitialQuiz() {
             <section className='initial-quiz'>
                 <div className='quiz'>
                     <h2>Para começar, me conte qual sua relação com o autismo? </h2>
-                    <label className='initial-input' class="radio">
-                        <input name="radio" type="radio" checked />
+                    <label className='initial-input1' class="radio">
+                        <input  name="radio" type="radio" checked />
                         <span>Sou cuidador de uma criança de até 6 anos </span>
                     </label>
-                    <label className='initial-input' class="radio">
+                    <label className='initial-input1' class="radio">
                         <input name="radio" type="radio" checked />
                         <span>Sou cuidador de uma criança de 7 anos ou mais</span>
                     </label>
-                    <label className='initial-input' class="radio">
+                    <label className='initial-input1' class="radio">
                         <input name="radio" type="radio" checked />
                         <span>Sou uma pessoa autista</span>
                     </label>
-                    <label className='initial-input' class="radio">
+                    <label className='initial-input1' class="radio">
                         <input name="radio" type="radio" checked />
                         <span>Sou terapeuta ocupacional, psicólogo(a) ou fonoaudiólogo</span>
                     </label>
-                    <label className='initial-input' class="radio">
+                    <label className='initial-input1' class="radio">
                         <input name="radio" type="radio" checked />
                         <span>Sou médico e trabalho com autismo </span>
                     </label>
-                    <label className='initial-input' class="radio">
+                    <label className='initial-input1' class="radio">
                         <input name="radio" type="radio" checked />
                         <span>Outro </span>
                     </label>

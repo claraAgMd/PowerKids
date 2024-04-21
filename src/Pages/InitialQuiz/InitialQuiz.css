@@ -1,23 +1,23 @@
 .quiz {
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
+    margin-left: 130px;
 }
 
 .initial-quiz {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
     margin-top: 40px;
 }
 
 .img-initial-quiz {
-    width: 400px;
+   margin-right: 230px;
+    height: 500px;
+    margin-top: 30px;
 }
 
-.initial-input{
-    border: 2px solid #991313;
-    margin-top: 30px;
+.initial-input1{
+    border: 2px solid #DDA6A6;
+    margin-top: 25px;
     border-radius: 50px;
     width: 85%;
     padding-left: 4px;
@@ -27,7 +27,7 @@
     margin-left: 30px;
 }
 
-.initial-input span {
+.initial-input1 span {
     font-family: 'Montserrat';
 }
 
@@ -39,5 +39,8 @@
     border-radius: 40px;
     font: normal 600 14px "Montserrat", sans-serif;
     width: 150px;
-    background-color: #00509D;
+    height: 36px;
+    margin-left: 11rem;
+    margin-top: 1.2rem;
+    background-color: #0D6EFD;
 }
