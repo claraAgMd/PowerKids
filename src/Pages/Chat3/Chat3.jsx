@@ -1,22 +1,22 @@
 import Header from "../../components/Header/Header";
-import "./MChat.css";
+import "./Chat3.css";
 
-const MChat = () => {
+const Chat3 = () => {
     return (
         <>
         <Header/>
         <section className="container-mchat">
             <article>
-                <h2>Seu filho consegue brincar de forma correta com brinquedos pequenos (ex. carros ou blocos), sem apenas colocar na boca, remexer no brinquedo ou deixar o brinquedo cair?</h2>
+                <h2>Se você aponta um brinquedo do outro lado do cômodo, o seu filho olha para ele?</h2>
                 <div className="container-buttons">
                     <button className="simm">Sim</button>
                     <button className="naoo">Não</button>
                 </div>
             </article>
-            <img src="menina-pensativa.png" alt="Menina negra cabelo cacheado brincando pensativa" />
+            <img src="homem-com-bebe.png" alt="BB no colo do pai" />
         </section>
         </>
     )
 }
 
-export default MChat
+export default Chat3
