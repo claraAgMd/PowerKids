@@ -1,0 +1,30 @@
+.container-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10rem;
+}
+.container-feedback h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.container-feedback p {
+    max-width: 60%;
+    text-align: center;
+}
+button {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00509D;
+    transition: 1s;
+}

@@ -1,0 +1,84 @@
+.container-mchat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.container-mchat h2 {
+    max-width: 500px;
+    font-size: 2rem;
+}
+.simm {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0D6EFD;
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00509D;
+    transition: 1s;
+}
+
+.naoo {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5B92C8;
+    color: white;
+    font-weight: 500;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.naoo:hover {
+    background-color: #000000;
+    transition: 1s;
+}
+
+@media screen and (max-width:1496px) {
+    .container-mchat {
+        max-width: 80%;
+    }
+}
+@media screen and (max-width:1310px) {
+    .container-mchat {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width:1125px) {
+    .container-mchat {
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        max-width: 90%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+    .container-mchat h2 {
+        margin-top: 1.3rem;
+    }
+    .container-buttons {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:743px) {
+    .container-mchat img {
+        width: 450px;
+    }
+}
+@media screen and (max-width:552px) {
+    .container-mchat h2 {
+        max-width: 360px;
+        font-size: 1.6rem;
+    }
+}
+@media screen and (max-width:478px) {
+    .container-mchat img {
+        width: 300px;
+    }
+}
