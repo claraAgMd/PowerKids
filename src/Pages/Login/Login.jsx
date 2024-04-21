@@ -9,7 +9,7 @@ const Login = () => {
 
             <div className="right-side">
                 <img src="logo.png" alt="Logo da marca" />
-                <p>Não é um membro? <a href="">Registre-se</a></p>
+                <p>Não é um membro? <a href="/cadastro">Registre-se</a></p>
                 <h1>Faça login na sua conta</h1>
                 <form action="">
 

@@ -9,7 +9,7 @@ const Register = () => {
 
             <div className="right-side">
                 <img src="logo.png" alt="Logo da marca" />
-                <p>Já é um membro? <a href="">Conecte-se</a></p>
+                <p>Já é um membro? <a href="/login">Conecte-se</a></p>
                 <h1>Registre sua conta</h1>
                 <form action="">
                     <div className="inputs-login">
