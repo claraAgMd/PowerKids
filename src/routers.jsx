@@ -3,6 +3,7 @@ import InitialQuiz from './Pages/InitialQuiz/InitialQuiz'
 import Login from './Pages/Login/Login'
 import Register from './Pages/Register/Register'
 import MChat from './Pages/MChat/MChat'
+import Feedback from './Pages/Feedback/Feedback'
 
 
 function RouterApp(){
@@ -13,6 +14,7 @@ function RouterApp(){
             <Route path="/login" element={<Login/>}>Login</Route>
             <Route path="/cadastro" element={<Register/>}>Cadastro</Route>
             <Route path="/MChat" element={<MChat/>}>MChat</Route>
+            <Route path="/feedback" element={<Feedback/>}>MChat</Route>
             </Routes>
         </Router>
     )
