@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import React from 'react'
 import InitialQuiz from './Pages/InitialQuiz/InitialQuiz'
+import LearningPaths from './Pages/LearningPaths/LearningPaths'
 
 
 function RouterApp(){
@@ -8,6 +9,7 @@ function RouterApp(){
         <Router>
             <Routes>
             <Route path="/" element={<InitialQuiz/>}>Quiz</Route>
+            <Route path='/trilhas' element={<LearningPaths/>}>Trilhas de aprendizado</Route>
             </Routes>
         </Router>
     )

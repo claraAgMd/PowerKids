@@ -1,0 +1,16 @@
+.learning-path-bg{
+    background-image: url('../../../public/fundo1-trilha.png');
+    
+}
+
+.h2-learning-path{
+    font-size: 3rem;
+    max-width: 40%;
+}
+
+.images-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
