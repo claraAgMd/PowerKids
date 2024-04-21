@@ -1,0 +1,179 @@
+.FeaturedImage {
+    background: url(destaque_home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 82vh;
+}
+
+.FeaturedImage h1 {
+    font-size: 50px;
+    color: #ffffff;
+    max-width: 500px;
+}
+
+h2 {
+    font-size: 35px;
+    color: #00509D;
+    padding: 25px;
+}
+
+.Characteristics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.CardInfo {
+    display: flex;
+    gap: 10px;
+    padding: 45px 0;
+}
+
+span {
+    color: #00509D;
+    border: 1PX #00509D solid;
+    height: 1.6rem;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 5px 13px;
+}
+
+p {
+    font-size: 16px;
+    max-width: 300px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #00509D;
+}
+
+.Featured {
+    background-color: #00509D;
+    color: white;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 11px 0;
+}
+
+.Featured .description {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 650px;
+    padding: 13px 0;
+}
+
+.Session {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.Sessionn {
+    display: flex;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5rem 0;
+    flex-direction: row-reverse;
+}
+
+.Session img,
+.Sessionn img {
+    width: 300px;
+    height: 400px;
+}
+
+button {
+    background-color: #00509D;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #00509D;
+    transition: 1s;
+}
+
+.LineYellow {
+    background-color: #00509D;
+    padding: 15px;
+    margin: 15px auto;
+}
+
+.ContainerInformation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LogoFooter {
+    img {
+        width: 240px;
+    }
+}
+
+.ContainerLinksFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.LinksFooter {
+    h3 {
+        font-size: 1.4rem;
+        padding: 8px 0px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.IconsFooter {
+    display: flex;
+    gap: 1rem;
+
+    img {
+        width: 30px;
+    }
+}
+
+.SpanFooter {
+    border-bottom: 2px solid #575656;
+    margin: 0 auto;
+    max-width: 60%;
+    padding: 10px 0;
+}
+
+.FinalFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    max-width: 85%;
+    font-size: 0.9rem;
+}
